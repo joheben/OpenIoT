@@ -1,22 +1,4 @@
-Acccess control
----------------
-
-1. Configuration
-
- * Access control is disabled by default, for activation of the access control,set the value of acEnabled variable in
-   gsn.beans.ContainerConfig to true.
- * AC uses the EmailService. Please configure yours in the emails.properties file.
- * Https certificate
-  
-  Create a X.509 certificate
-  Keystor name: servertestkeystore
-  certificate name: servertestcer
-  store password for keystore in keystore.properties
-
-
-2. Defalut adminstrator
-
- username:Admin
- password:changeit
-
-
+Vendor branch of GSN
+Based on revision 4323
+https://gsn.svn.sourceforge.net/svnroot/gsn/trunk
+This version shouldn't be modified. The working version is in openiot/modules/ogsn
